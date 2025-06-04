@@ -4,10 +4,5 @@
       "runtime": "nodejs18.x",
       "maxDuration": 30
     }
-  },
-  "build": {
-    "env": {
-      "PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD": "1"
-    }
   }
 }
