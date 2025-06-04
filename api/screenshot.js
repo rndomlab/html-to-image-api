@@ -1,4 +1,4 @@
-import { chromium } from 'playwright-core';
+const { chromium } = require('playwright-core');
 
 export default async function handler(req, res) {
   // Only allow POST requests
@@ -73,4 +73,4 @@ export default async function handler(req, res) {
       details: error.message 
     });
   }
-}
+};
