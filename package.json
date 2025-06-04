@@ -1,13 +1,8 @@
 {
   "name": "html-to-image-api",
   "version": "1.0.0",
-  "description": "Serverless HTML to Image converter",
-  "main": "api/screenshot.js",
   "type": "module",
   "dependencies": {
     "playwright-core": "^1.40.0"
-  },
-  "engines": {
-    "node": "18.x"
   }
 }
